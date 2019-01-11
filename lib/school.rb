@@ -9,7 +9,7 @@ class School
   @roster =roster
  roster[grade] = [name]
    return roster
-   school.roster
+   self.roster
  end
 
 end
