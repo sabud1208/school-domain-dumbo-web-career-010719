@@ -10,5 +10,4 @@ class School
  roster[grade] = [name]
  self.add_student
  end
- end
 end
