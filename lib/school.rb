@@ -7,8 +7,7 @@ class School
  
  def add_student(name, grade)
   @roster =roster
-  roster[grade].each do |name|
-    name
+  roster[grade] = name
   end
  end
 end
