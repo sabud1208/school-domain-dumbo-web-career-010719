@@ -6,7 +6,7 @@ class School
  end
  
  def add_student(name, grade)
-  @roster =
-  rosterroster[grade] = [name]
+  @roster =roster
+  roster[grade] = [name]
  end
 end
